@@ -1,0 +1,12 @@
+{
+    "name": "hp/searching",
+    "authors": [
+        {
+            "name": "taballa.hp-PD",
+            "email": "taballa@gmail.com"
+        }
+    ],
+    "require": {
+        "sunra/php-simple-html-dom-parser": "v1.5.0"
+    }
+}
