@@ -71,7 +71,6 @@ if ($_GET && $_GET['keyword']){
     </div>
     <div class="wrapper">
         <div id="baidu-content">
-            <!-- <iframe src="http://www.baidu.com/s?wd=<?php echo "$keyword" ?>" frameborder="0" id="baidu-frame" scrolling="auto"></iframe> -->
             <?php echo $baidu_content ?>
         </div> 
         <div id="google-content">
