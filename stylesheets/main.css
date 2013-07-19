@@ -1,0 +1,31 @@
+#baidu-frame, #google-frame {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  margin: 0 auto;
+}
+#baidu-content, #google-content {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.search-form {
+  margin: 0 auto;
+  width: 550px;
+}
+.search-form .text {
+  width: 350px;
+  height: 30px;
+}
+.search-form .submit {
+  /*width: 25px;*/
+}
+
+/*for baidu*/
+#u {
+  display: none;
+}
+.fm {
+  display: none;
+}
