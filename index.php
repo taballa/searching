@@ -19,7 +19,6 @@ if ($_GET && $_GET['keyword']){
     $baidu_start = "&pn=" . $page_number;
 
 // fetch baidu
-// $baidu_content = file_get_contents($baidu_url);
     $ch_b = curl_init();
     curl_setopt($ch_b, CURLOPT_URL, $baidu_url);
     curl_setopt($ch_b, CURLOPT_RETURNTRANSFER, 1);
@@ -28,11 +27,9 @@ if ($_GET && $_GET['keyword']){
     $baidu_content = curl_exec($ch_b);
     $baidu_content = preg_replace('/\"\//', '"http://www.baidu.com/', $baidu_content);
     $dom_bd = HtmlDomParser::str_get_html( $baidu_content );
-    $baidu_head = $dom_bd->find('head', 0);
+    // $baidu_head = $dom_bd->find('head', 0);
     $baidu_nav = $dom_bd->find('.s_tab', 0);
-    $baidu_content = $baidu_head . $baidu_nav . $dom_bd->find('#content_left',0);
-    // var_dump($baidu_content);
-    // var_dump($baidu_head);
+    $baidu_content = $baidu_nav . $dom_bd->find('#content_left',0);
     curl_close($ch_b);
 
 // fetch google
@@ -49,10 +46,10 @@ if ($_GET && $_GET['keyword']){
     $google_content = preg_replace('/\"\//', '"http://www.google.com/', $google_content);
     $google_content = iconv('GBK', 'utf-8', $google_content);
     $dom_gg = HtmlDomParser::str_get_html( $google_content );
-    $google_head = $dom_gg->find('head', 0);
+    // $google_head = $dom_gg->find('head', 0);
     $google_modeselector = $dom_gg->find('#modeselector', 0);
     $google_tbd = $dom_gg->find('#tbd', 0);
-    $google_content = $google_head . $google_modeselector . $google_tbd . $dom_gg->find('#center_col', 0);
+    $google_content = $google_modeselector . $google_tbd . $dom_gg->find('#center_col', 0);
     curl_close($ch_g);
 }
 ?>
@@ -61,41 +58,10 @@ if ($_GET && $_GET['keyword']){
 <head>
     <meta charset="UTF-8">
     <title>Searching</title>
-    <style>
-    #baidu-frame, #google-frame {
-        width: 100%;
-        height: 100%;
-    }
-    .wrapper {
-        margin: 0 auto;
-    }
-    #baidu-content, #google-content {
-        width: 50%;
-        height: 100%;
-        float: left;
-    }
-    .search-form {
-      margin: 0 auto;
-      width: 550px;
-  }
-  .search-form .text {
-      width: 350px;
-      height: 30px;
-  }
-  .search-form .submit {
-      /*width: 25px;*/
-  }
-
-  /*for baidu*/
-  #u {
-    display: none;
-}
-.fm {
-    display: none;
-}
-</style>
-<link rel='stylesheet' href='http://www.google.com/cse/style/look/default.css' type='text/css'/>
-<script src="components/jquery/jquery.js"></script>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <!-- <link rel='stylesheet' href='http://www.google.com/cse/style/look/default.css' type='text/css'/> -->
+    <script src="components/jquery/jquery.js"></script>
 </head>
 <body>
     <div class="search-form">
@@ -132,9 +98,9 @@ if ($_GET && $_GET['keyword']){
               customSearchControl.execute("<?php echo $keyword_origin ?>");
               }, true);
             </script>
- -->        
-            <?php echo $google_content ?>
-        </div>
+        -->        
+        <?php echo $google_content ?>
     </div>
+</div>
 </body>
 </html>
