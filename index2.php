@@ -29,20 +29,34 @@ if ($_GET && $_GET['keyword']){
         height: 100%;
         float: left;
     }
+    .search-form {
+      margin: 0 auto;
+      width: 550px;
+    }
+    .search-form .text {
+      width: 350px;
+      height: 30px;
+    }
+    .search-form .submit {
+      /*width: 25px;*/
+    }
 
     /*for baidu*/
     #u {
         display: none;
     }
+    .fm {
+        display: none;
+    }
     </style>
-    <link rel='stylesheet' href='www.google.com/cse/style/look/default.css' type='text/css'/>
+    <link rel='stylesheet' href='http://www.google.com/cse/style/look/default.css' type='text/css'/>
     <script src="components/jquery/jquery.js"></script>
 </head>
 <body>
     <div class="search-form">
         <form action="index2.php" method="get">
-            <input type="text" name="keyword" value = "<?php echo urldecode($keyword) ?>">
-            <input type="submit" value="Search">
+            <input type="text" name="keyword" value = "<?php echo urldecode($keyword) ?>" class="text">
+            <input type="submit" value="Search" class="submit">
         </form>
     </div>
     <div class="wrapper">
@@ -69,15 +83,15 @@ if ($_GET && $_GET['keyword']){
       customSearchControl.setResultSetSize(google.search.Search.LARGE_RESULTSET);
       var options = new google.search.DrawOptions();
       customSearchControl.draw('cse', options);
-      customSearchControl.execute("VW GTI");
+      customSearchControl.execute("<?php echo $keyword ?>");
     }, true);
     </script>
             <!-- </iframe> -->
         </div>
     </div>
     <script>
-        var iframe_baidu = document.getElementById("baidu-frame");
-        iframe_baidu.height = $(document).height();
+        // var iframe_baidu = document.getElementById("baidu-frame");
+        // iframe_baidu.height = $(document).height();
     </script>
 </body>
 </html>
