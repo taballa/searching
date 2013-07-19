@@ -76,7 +76,6 @@ if ($_GET && $_GET['keyword']){
             <?php echo $baidu_content ?>
         </div> 
         <div id="google-content">
-            <!-- <iframe src="" frameborder="0" scrolling="auto" id="google-frame"></iframe> -->
 <!--             <div id='cse' style='width: 100%;'>Loading</div>
             <script src='//www.google.com/jsapi' type='text/javascript'></script>
             <script type='text/javascript'>
