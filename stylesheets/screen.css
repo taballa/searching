@@ -66,3 +66,398 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 1, ../sass/_google-style.scss */
+#modeselector {
+  font-size: 14px;
+}
+
+/* line 4, ../sass/_google-style.scss */
+.mitem {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 8, ../sass/_google-style.scss */
+.mitem:hover {
+  background-color: #EEE;
+  text-decoration: none;
+}
+
+/* line 12, ../sass/_google-style.scss */
+.msel {
+  border: none;
+  border-left: 5px solid #DD4B39;
+  color: #DD4B39;
+  cursor: pointer;
+  font-weight: normal;
+  padding-left: 11px;
+}
+
+/* line 20, ../sass/_google-style.scss */
+#tbd {
+  font-size: 12px;
+}
+
+/* line 23, ../sass/_google-style.scss */
+.tbt li {
+  float: left;
+  margin-right: 5px;
+}
+
+/* line 27, ../sass/_google-style.scss */
+#center_col {
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* line 32, ../sass/_google-style.scss */
+#center_col b {
+  color: #C03;
+  font-weight: normal;
+}
+
+/* line 36, ../sass/_google-style.scss */
+#cnt #center_col, #cnt #foot, #cnt .ab_center_col {
+  width: 100%;
+}
+
+/* line 39, ../sass/_google-style.scss */
+#res {
+  border: 0;
+  margin: 0;
+  padding: 0 8px;
+}
+
+/* line 44, ../sass/_google-style.scss */
+#res, #res .j {
+  line-height: 120%;
+}
+
+/* line 47, ../sass/_google-style.scss */
+.hd {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: -1000em;
+  overflow: hidden;
+}
+
+/* line 54, ../sass/_google-style.scss */
+#ires {
+  padding-top: 6px;
+}
+
+/* line 57, ../sass/_google-style.scss */
+li.g {
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+/* line 61, ../sass/_google-style.scss */
+.rc {
+  position: relative;
+}
+
+/* line 64, ../sass/_google-style.scss */
+.altcts {
+  float: left;
+}
+
+/* line 67, ../sass/_google-style.scss */
+#res h3.r {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 73, ../sass/_google-style.scss */
+#res .r {
+  line-height: 1;
+}
+
+/* line 76, ../sass/_google-style.scss */
+#ires h3, #res h3, #tads h3, #tadsb h3, #mbEnd h3 {
+  font-size: medium;
+}
+
+/* line 79, ../sass/_google-style.scss */
+a:link, .w, .q:active, .q:visited, .tbotu {
+  color: #12C;
+  cursor: pointer;
+}
+
+/* line 83, ../sass/_google-style.scss */
+em, .rbt b, .c b, #mbEnd b {
+  color: #DD4B39;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 91, ../sass/_google-style.scss */
+.s, #rhs .ac {
+  color: #444;
+}
+
+/* line 94, ../sass/_google-style.scss */
+.s {
+  max-width: 42em;
+}
+
+/* line 97, ../sass/_google-style.scss */
+.kv, .kvs, .slp, .s .f {
+  display: block;
+  margin-bottom: 1px;
+  font-size: 13px;
+}
+
+/* line 102, ../sass/_google-style.scss */
+.a, cite, cite a:link, cite a:visited, .cite, .cite:link, #mbEnd cite b, #tads cite b, #tadsb cite b, #ans > i, .bc a:link {
+  color: #093;
+  font-style: normal;
+}
+
+/* line 106, ../sass/_google-style.scss */
+.action-menu .mn-dwn-arw {
+  border-color: #093 transparent;
+  left: 0;
+  margin-left: 3px;
+}
+
+/* line 111, ../sass/_google-style.scss */
+.action-menu .mn-dwn-arw {
+  margin-top: -4px;
+}
+
+/* line 114, ../sass/_google-style.scss */
+.mn-dwn-arw {
+  border-color: #909090 transparent;
+  border-style: solid;
+  border-width: 4px 4px 0 4px;
+  width: 0;
+  height: 0;
+  margin-left: -2px;
+  top: 50%;
+  margin-top: -2px;
+  position: absolute;
+}
+
+/* line 125, ../sass/_google-style.scss */
+.action-menu-panel {
+  left: 0;
+  padding: 0;
+  right: auto;
+  top: 12px;
+  visibility: hidden;
+}
+
+/* line 132, ../sass/_google-style.scss */
+.action-menu-item {
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+
+/* line 136, ../sass/_google-style.scss */
+.ab_dropdownitem {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+}
+
+/* line 141, ../sass/_google-style.scss */
+.st, .ac {
+  line-height: 1.24;
+  font-size: 13px;
+}
+
+/* line 145, ../sass/_google-style.scss */
+.osl {
+  margin-top: 4px;
+}
+
+/* line 148, ../sass/_google-style.scss */
+a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b {
+  color: #12C;
+}
+
+/* line 1, ../sass/_baidu-style.scss */
+.EC_ppim_top {
+  background-color: whiteSmoke;
+  table-layout: fixed;
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+
+/* line 8, ../sass/_baidu-style.scss */
+.op_zx_renwu {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 12, ../sass/_baidu-style.scss */
+.s_tab {
+  padding: 0 0 15px;
+  float: left;
+}
+
+/* line 16, ../sass/_baidu-style.scss */
+.s_tab a {
+  color: #00C;
+  font-size: 14px;
+}
+
+/* line 20, ../sass/_baidu-style.scss */
+.s_tab b {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 25, ../sass/_baidu-style.scss */
+#content_left {
+  width: 100%;
+  float: left;
+}
+
+/* line 29, ../sass/_baidu-style.scss */
+#rs_top {
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+/* line 33, ../sass/_baidu-style.scss */
+#rs_top a {
+  margin-right: 6px;
+}
+
+/* line 36, ../sass/_baidu-style.scss */
+#content_left .result-op, #content_left .result {
+  margin-bottom: 25px;
+  border-collapse: collapse;
+}
+
+/* line 40, ../sass/_baidu-style.scss */
+#content_left .result .f, #content_left .result-op .f {
+  padding: 0;
+}
+
+/* line 43, ../sass/_baidu-style.scss */
+.result-op .f {
+  word-wrap: normal;
+}
+
+/* line 46, ../sass/_baidu-style.scss */
+.f {
+  line-height: 115%;
+  font-size: 100%;
+  width: 33.7em;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+/* line 53, ../sass/_baidu-style.scss */
+td {
+  font-size: 9pt;
+  line-height: 18px;
+}
+
+/* line 57, ../sass/_baidu-style.scss */
+.t {
+  font-weight: normal;
+  font-size: medium;
+  margin-bottom: 9px;
+}
+
+/* line 62, ../sass/_baidu-style.scss */
+.c-showurl {
+  color: green;
+  font-size: 13px;
+}
+
+/* line 66, ../sass/_baidu-style.scss */
+a em {
+  text-decoration: underline;
+}
+
+/* line 69, ../sass/_baidu-style.scss */
+em {
+  font-style: normal;
+  color: #C00;
+}
+
+/* line 73, ../sass/_baidu-style.scss */
+.op_dict_content p b {
+  margin: 0 4px 0 8px;
+  font-family: "lucida sans unicode",arial;
+}
+
+/* line 77, ../sass/_baidu-style.scss */
+.op_dict_content p {
+  margin: 4px 0;
+}
+
+/* line 80, ../sass/_baidu-style.scss */
+.op_dict_content .op_dict_source span {
+  color: #666;
+}
+
+/* line 83, ../sass/_baidu-style.scss */
+.c-abstract {
+  font-size: 13px;
+}
+
+/* line 86, ../sass/_baidu-style.scss */
+.f13 {
+  font-size: 13px;
+}
+
+/* line 89, ../sass/_baidu-style.scss */
+.g, a.g {
+  color: green;
+}
+
+/* line 92, ../sass/_baidu-style.scss */
+a.m:visited {
+  color: #606;
+}
+
+/* line 95, ../sass/_baidu-style.scss */
+.m, a.m {
+  color: #666;
+}
+
+/* line 98, ../sass/_baidu-style.scss */
+.m, a.m {
+  color: #666;
+}
+
+/* line 101, ../sass/_baidu-style.scss */
+#rs {
+  width: 100%;
+  background: white;
+  padding: 8px 0;
+  margin: 20px 0 0;
+}
+
+/* line 107, ../sass/_baidu-style.scss */
+#rs .tt {
+  font-weight: bold;
+  padding: 0 10px 0 20px;
+  display: none;
+}
+
+/* line 112, ../sass/_baidu-style.scss */
+#rs th {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 19px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+/* line 119, ../sass/_baidu-style.scss */
+#rs a {
+  margin-right: 6px;
+}

@@ -1,0 +1,150 @@
+#modeselector {
+    font-size: 14px;
+}
+.mitem{
+    float: left;
+    margin-right: 10px;
+}
+.mitem:hover {
+background-color: #EEE;
+text-decoration: none;
+}
+.msel {
+border: none;
+border-left: 5px solid #DD4B39;
+color: #DD4B39;
+cursor: pointer;
+font-weight: normal;
+padding-left: 11px;
+}
+#tbd{
+    font-size: 12px;
+}
+.tbt li{
+    float: left;
+    margin-right:5px;
+}
+#center_col {
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+#center_col b {
+color: #C03;
+font-weight: normal;
+}
+#cnt #center_col, #cnt #foot, #cnt .ab_center_col {
+width: 100%;
+}
+#res {
+border: 0;
+margin: 0;
+padding: 0 8px;
+}
+#res, #res .j {
+line-height: 120%;
+}
+.hd {
+position: absolute;
+width: 1px;
+height: 1px;
+top: -1000em;
+overflow: hidden;
+}
+#ires {
+padding-top: 6px;
+}
+li.g {
+margin-top: 0;
+margin-bottom: 23px;
+}
+.rc {
+position: relative;
+}
+.altcts {
+float: left;
+}
+#res h3.r {
+display: block;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+#res .r {
+line-height: 1;
+}
+#ires h3, #res h3, #tads h3, #tadsb h3, #mbEnd h3 {
+font-size: medium;
+}
+a:link, .w, .q:active, .q:visited, .tbotu {
+color: #12C;
+cursor: pointer;
+}
+em, .rbt b, .c b, #mbEnd b {
+color: #DD4B39;
+font-style: normal;
+font-weight: normal;
+}
+#res .s {
+// line-height: 1.54;
+}
+.s, #rhs .ac {
+color: #444;
+}
+.s {
+max-width: 42em;
+}
+.kv, .kvs, .slp, .s .f {
+display: block;
+margin-bottom: 1px;
+font-size: 13px;
+}
+.a, cite, cite a:link, cite a:visited, .cite, .cite:link, #mbEnd cite b, #tads cite b, #tadsb cite b, #ans > i, .bc a:link {
+color: #093;
+font-style: normal;
+}
+.action-menu .mn-dwn-arw {
+border-color: #093 transparent;
+left: 0;
+margin-left: 3px;
+}
+.action-menu .mn-dwn-arw {
+margin-top: -4px;
+}
+.mn-dwn-arw {
+border-color: #909090 transparent;
+border-style: solid;
+border-width: 4px 4px 0 4px;
+width: 0;
+height: 0;
+margin-left: -2px;
+top: 50%;
+margin-top: -2px;
+position: absolute;
+}
+.action-menu-panel {
+left: 0;
+padding: 0;
+right: auto;
+top: 12px;
+visibility: hidden;
+}
+.action-menu-item {
+cursor: pointer;
+-webkit-user-select: none;
+}
+.ab_dropdownitem {
+margin: 0;
+padding: 0;
+-webkit-user-select: none;
+}
+.st, .ac {
+line-height: 1.24;
+font-size: 13px;
+}
+.osl {
+margin-top: 4px;
+}
+a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b {
+color: #12C;
+}

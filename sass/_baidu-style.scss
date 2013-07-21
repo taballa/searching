@@ -1,0 +1,121 @@
+.EC_ppim_top {
+background-color: whiteSmoke;
+table-layout: fixed;
+width: 100%;
+border: none;
+border-collapse: collapse;
+}
+.op_zx_renwu {
+width: 100%;
+overflow: hidden;
+}
+.s_tab {
+padding: 0 0 15px;
+float: left;
+}
+.s_tab a {
+color: #00C;
+font-size: 14px;
+}
+.s_tab b {
+font-size: 14px;
+font-weight: bold;
+}
+
+#content_left {
+width: 100%;
+float: left;
+}
+#rs_top {
+font-size: 14px;
+margin-bottom: 22px;
+}
+#rs_top a {
+    margin-right: 6px;
+}
+#content_left .result-op, #content_left .result {
+margin-bottom: 25px;
+border-collapse: collapse;
+}
+#content_left .result .f, #content_left .result-op .f {
+padding: 0;
+}
+.result-op .f {
+word-wrap: normal;
+}
+.f {
+line-height: 115%;
+font-size: 100%;
+width: 33.7em;
+word-break: break-all;
+word-wrap: break-word;
+}
+td {
+font-size: 9pt;
+line-height: 18px;
+}
+.t {
+font-weight: normal;
+font-size: medium;
+margin-bottom: 9px;
+}
+.c-showurl {
+color: green;
+font-size: 13px;
+}
+a em {
+text-decoration: underline;
+}
+em {
+font-style: normal;
+color: #C00;
+}
+.op_dict_content p b {
+margin: 0 4px 0 8px;
+font-family: "lucida sans unicode",arial;
+}
+.op_dict_content p {
+margin: 4px 0;
+}
+.op_dict_content .op_dict_source span {
+color: #666;
+}
+.c-abstract {
+font-size: 13px;
+}
+.f13 {
+font-size: 13px;
+}
+.g, a.g {
+color: green;
+}
+a.m:visited {
+color: #606;
+}
+.m, a.m {
+color: #666;
+}
+.m, a.m {
+color: #666;
+}
+#rs {
+width: 100%;
+background: white;
+padding: 8px 0;
+margin: 20px 0 0;
+}
+#rs .tt {
+font-weight: bold;
+padding: 0 10px 0 20px;
+display: none;
+}
+#rs th {
+font-size: 12px;
+font-weight: normal;
+line-height: 19px;
+white-space: nowrap;
+text-align: left;
+}
+#rs a {
+    margin-right: 6px;
+}
